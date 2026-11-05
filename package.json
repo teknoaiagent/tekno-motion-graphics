@@ -1,0 +1,22 @@
+{
+  "name": "tekno-motion-graphics",
+  "version": "1.0.0",
+  "description": "TEKNO MOTION GRAPHICS - AI-Powered Automated Short-Form Motion Video Production",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "canvas",
+    "gemini",
+    "video-editor",
+    "motion-graphics",
+    "clipper",
+    "transcription",
+    "mediapipe",
+    "tekno"
+  ],
+  "author": "TEKNO",
+  "license": "ISC"
+}

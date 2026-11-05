@@ -1,0 +1,22 @@
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+node_modules/
+
+# Temporary test artifacts & screenshots
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.webm
+*.wav
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
