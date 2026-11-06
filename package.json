@@ -1,7 +1,7 @@
 {
-  "name": "tekno-motion-graphics",
+  "name": "sca-motion-graphics",
   "version": "1.0.0",
-  "description": "TEKNO MOTION GRAPHICS - AI-Powered Automated Short-Form Motion Video Production",
+  "description": "SCA MOTION GRAPHICS - AI-Powered Automated Short-Form Motion Video Production",
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
@@ -15,8 +15,8 @@
     "clipper",
     "transcription",
     "mediapipe",
-    "tekno"
+    "sca"
   ],
-  "author": "TEKNO",
+  "author": "SCA",
   "license": "ISC"
 }

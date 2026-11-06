@@ -1,6 +1,6 @@
-# 🎬 TEKNO MOTION GRAPHICS — Technical Architecture & Deep Research Documentation
+# 🎬 SCA MOTION GRAPHICS — Technical Architecture & Deep Research Documentation
 
-> **TEKNO MOTION GRAPHICS** is an autonomous, client-side, browser-native AI motion video workstation. It transforms raw talking-head videos, long podcasts, or product photos into retention-optimized short-form videos (TikTok, Reels, Shorts) using Google Gemini AI, Google MediaPipe Computer Vision, Canvas 2D multi-pass rendering, and WebCodecs hardware encoding.
+> **SCA MOTION GRAPHICS** is an autonomous, client-side, browser-native AI motion video workstation. It transforms raw talking-head videos, long podcasts, or product photos into retention-optimized short-form videos (TikTok, Reels, Shorts) using Google Gemini AI, Google MediaPipe Computer Vision, Canvas 2D multi-pass rendering, and WebCodecs hardware encoding.
 
 ---
 

@@ -53,7 +53,7 @@ const sseClients = new Set();
 // Watch for file changes in directory
 fs.watch(ROOT_DIR, { recursive: false }, (eventType, filename) => {
   if (filename && (filename.endsWith('.html') || filename.endsWith('.js') || filename.endsWith('.css'))) {
-    console.log(`[TEKNO MOTION GRAPHICS Dev] File changed: ${filename} -> Triggering live reload`);
+    console.log(`[SCA MOTION GRAPHICS Dev] File changed: ${filename} -> Triggering live reload`);
     for (const res of sseClients) {
       try {
         res.write('data: reload\n\n');
@@ -102,7 +102,7 @@ const server = http.createServer((req, res) => {
   // Handle Health Check
   if (req.url === '/health' || req.url === '/api/health') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify({ status: 'ok', app: 'TEKNO MOTION GRAPHICS Dev Server', port: PORT }));
+    res.end(JSON.stringify({ status: 'ok', app: 'SCA MOTION GRAPHICS Dev Server', port: PORT }));
     return;
   }
 
@@ -248,7 +248,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, HOST, () => {
   console.log(`====================================================`);
-  console.log(`  🚀 TEKNO MOTION GRAPHICS Localhost Full Dev Ready! `);
+  console.log(`  🚀 SCA MOTION GRAPHICS Localhost Full Dev Ready!   `);
   console.log(`  URL: http://${HOST}:${PORT}`);
   console.log(`  Dev Mode: http://${HOST}:${PORT}/#dev`);
   console.log(`  Serving from: ${ROOT_DIR}`);
